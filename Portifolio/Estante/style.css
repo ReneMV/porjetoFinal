@@ -1,0 +1,146 @@
+html {
+    scroll-behavior:smooth;
+}
+
+/*CORPO DA APLICAÇÃO*/
+body {
+    /* BACKGROUND */
+    background-color: #F2E7DC;
+
+    /* TEXTO */
+    color: #0D0D0D;
+    text-align: justify;
+
+    /*ALINHAMENTO E TAMANHO*/
+    width: 100%;
+    margin: auto;
+
+}
+
+/*SEÇÕES DOS LIVROS*/
+section {
+    /*ESPAÇÃMENTO DENTRO DA SEÇÃO*/
+    padding: 64px 256px;
+    /*A PRIMEIRA MEDIDA É EM CIMA E BAIXO, E A SEGUNDA É OS LADOS*/
+
+}
+
+/*LARGURA*/
+table {
+    width: 100%;
+}
+
+/*BACKGROUND*/
+td {
+    background-color: #A9D9D0;
+
+}
+
+td,
+th {
+    /*BORDA NO FORMATO SHORTHAND*/
+    border: black solid 1px;
+    border-radius: 4px;
+
+    /*ALINHAMENTO DO TEXTO*/
+    text-align: center;
+}
+
+tr {
+    /*BACKGROUND*/
+    background-color: #038C7F;
+}
+
+/*TÍTULO TEXTO E PARÁGRAFOS*/
+
+p {
+    text-align: justify;
+    text-indent: 50px;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+h3 {
+    color: #000;
+}
+
+/*LINKS*/
+
+a:link {
+    color: #f2e7dc;
+    /*LINK NORMAL*/
+}
+
+a:visited {
+    color: #95bfb8;
+    /*LINK VISITADO*/
+}
+
+a:hover {
+    color: #025454;
+    /*MOUSE SOBRE O LINK*/
+}
+
+a:active {
+    color: #0d0d0d;
+    /*LINK SELECIONADO */
+}
+
+
+/*IMAGEM*/
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+}
+
+
+/*CLASSES E IDS*/
+.bookTitle {
+    background-color: #A9D9D0;
+    color: #027373;
+    text-align: center;
+}
+
+#sectionHP,
+#sectionAlq,
+#sectionOlhos {
+    background-color: #A9D9D0;
+}
+
+#header {
+    background-color: #038C7F;
+    color: #f2e7dc;
+    padding: 20px;
+    margin-bottom: 0px;
+
+}
+
+#yourLibrary {
+    text-align: 0px;
+    text-align: center;
+}
+
+#sumary {
+    background-color: #038C7F;
+    color: #F2E7DC;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 0 0 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*RODA PÉ*/
+footer {
+    background-color: #038C7F;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
